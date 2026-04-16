@@ -1,0 +1,22 @@
+{
+  "keyword": "visual grounding",
+  "timeline": [
+    {
+      "year": 2026,
+      "papers": [
+        "Mock Paper on Visual Grounding"
+      ]
+    }
+  ],
+  "main_routes": [
+    "general"
+  ],
+  "common_backbones_or_modules": [],
+  "hot_datasets": [
+    "dataset evidence not explicit in metadata"
+  ],
+  "hot_metrics": [
+    "metric evidence not explicit in metadata"
+  ],
+  "evolution": "Recent work tends to move from task-specific architectures toward foundation-model, multimodal, and data-centric pipelines with stronger generalization claims."
+}

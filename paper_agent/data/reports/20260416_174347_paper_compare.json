@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Open Vocabulary Detection",
+    "task": "Object detection / grounding",
+    "innovation": "Emphasizes open-set or zero-shot generalization.; Uses language signals to guide perception or reasoning.",
+    "architecture": "Architecture fallback: no stable overview figure was extracted. Input: task-specific text/image/state signals. Backbone: task-specific neural backbone. Core modules: language encoder. Output: predictions aligned with the paper task, such as labels, regions, actions, or masks.",
+    "experiments": "Likely evaluated on task benchmarks related to detection.",
+    "strengths": "Clear relevance to the target research topic; metadata-level summary available.",
+    "limitations": "Full paper parsing is needed for precise ablations and quantitative claims.",
+    "best_for": "Researchers tracking detection."
+  }
+]

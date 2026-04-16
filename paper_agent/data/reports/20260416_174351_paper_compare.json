@@ -1,0 +1,22 @@
+[
+  {
+    "title": "CLIP for Open-Vocabulary Recognition",
+    "task": "Research task inferred from title and abstract",
+    "innovation": "Emphasizes open-set or zero-shot generalization.; Uses language signals to guide perception or reasoning.",
+    "architecture": "Architecture fallback: no stable overview figure was extracted. Input: task-specific text/image/state signals. Backbone: Transformer / foundation model backbone. Core modules: language encoder, visual encoder. Output: predictions aligned with the paper task, such as labels, regions, actions, or masks.",
+    "experiments": "Likely evaluated on task benchmarks related to vision-language.",
+    "strengths": "Clear relevance to the target research topic; metadata-level summary available.",
+    "limitations": "Full paper parsing is needed for precise ablations and quantitative claims.",
+    "best_for": "Researchers tracking vision-language."
+  },
+  {
+    "title": "Diffusion Policy for Robot Control",
+    "task": "Embodied navigation",
+    "innovation": "Uses diffusion-style generation or policy modeling.",
+    "architecture": "Architecture fallback: no stable overview figure was extracted. Input: task-specific text/image/state signals. Backbone: task-specific neural backbone. Core modules: diffusion denoising module. Output: predictions aligned with the paper task, such as labels, regions, actions, or masks.",
+    "experiments": "Likely evaluated on task benchmarks related to navigation, diffusion.",
+    "strengths": "Clear relevance to the target research topic; metadata-level summary available.",
+    "limitations": "Full paper parsing is needed for precise ablations and quantitative claims.",
+    "best_for": "Researchers tracking navigation, diffusion."
+  }
+]

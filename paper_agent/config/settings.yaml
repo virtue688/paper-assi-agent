@@ -1,0 +1,27 @@
+project:
+  name: Paper_Agent
+  python: ">=3.10"
+
+llm:
+  provider: ollama
+  base_url: http://localhost:11434
+  model: qwen3:3b
+  timeout: 60
+
+search:
+  top_k: 8
+  default_years: 3
+  sources:
+    - arxiv
+    - semantic_scholar
+
+semantic_scholar:
+  api_key: ${SEMANTIC_SCHOLAR_API_KEY}
+
+storage:
+  data_dir: data
+
+scheduler:
+  timezone: Asia/Shanghai
+  hour: 9
+  minute: 0

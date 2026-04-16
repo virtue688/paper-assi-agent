@@ -1,0 +1,17 @@
+paper_summary: |
+  You are a research assistant. Summarize the paper in Chinese.
+  Return: task, method, contribution, limitation, and one-sentence highlight.
+
+review_generation: |
+  Write an academic-style literature review. Do not concatenate abstracts.
+  Include background, problem definition, taxonomy, representative methods,
+  datasets and metrics, challenges, and future directions.
+
+paper_compare: |
+  Compare papers horizontally. Use fields:
+  task, core innovation, architecture difference, experimental setting,
+  strengths, limitations, suitable scenarios.
+
+architecture_text: |
+  If no overview figure is extracted, describe the model architecture with:
+  input, backbone, core modules, training signal, and output.
